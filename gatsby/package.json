@@ -1,0 +1,52 @@
+{
+  "name": "maikkuntze",
+  "private": true,
+  "description": "Maik Kuntze Full Stack Developer Personal Webpage",
+  "version": "0.1.0",
+  "author": "Maik Kuntze <maik@first2nd.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.1",
+    "gatsby": "^2.11.0",
+    "gatsby-image": "^2.2.1",
+    "gatsby-plugin-client-side-redirect": "0.0.2",
+    "gatsby-plugin-google-tagmanager": "^2.1.1",
+    "gatsby-plugin-lodash": "^3.1.0",
+    "gatsby-plugin-manifest": "^2.2.0",
+    "gatsby-plugin-offline": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-plugin-styled-components": "^3.1.0",
+    "gatsby-source-wordpress": "^3.1.0",
+    "gatsby-transformer-sharp": "^2.2.0",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.1",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf .cache && gatsby build",
+    "develop": "rm -rf .cache && gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
